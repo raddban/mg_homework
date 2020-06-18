@@ -1,0 +1,22 @@
+Hello. Here You will find some rules for testing this app.
+The MVC principle will be used here.
+
+=====================================================================================================================
+
+1. Create database "mg_homework";
+2. Run Mysql dump "mysql -u username -p database_name < file.sql";
+3. Fill in DB class credentials to connect with database;
+4. From terminal run "php -S localhost:8080". Not necessary to use webserver like xampp.
+5. In open browser You can register new user. If you press register button on empty fields, you will get an error with message "All fields are required"
+6. In resource folder You will find page.php file. This file is access only after login. So if You write url -> /user-page before login, You will be redirect back on index page. Also after login, You dont have access on index page, for login or registration.
+7. This app dont use any validation class, so any data from input fields will be stored in database, also dont have password decryption.
+8. For this app, I'm using "nikic/fast-route for routing, and illuminate/database for work with database
+9. I build this app to see that I use MVC pattern.
+
+=====================================================================================================================
+
+Thank You for you time.
+Please feel free to contact if you have any questions.
+
+Best regards,
+Arturs.

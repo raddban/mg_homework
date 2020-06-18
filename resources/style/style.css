@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/background.png");
+    box-sizing: border-box;
+    position: relative;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.red{
+    color: red;
+}
+.container{
+    width: 924px;
+    margin: 0 auto;
+    transform: translate(0, 50%);
+}
+
+.container-background{
+    max-width: 924px;
+    background-color: #0f1a2f;
+    opacity: 0.9;
+    color: #fff;
+    padding: 30px 50px 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-background p{
+    width: 200px;
+    line-height: 1.8;
+}
+button{
+    background-color: #49abfe;
+    width: 144px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+/* Form */
+
+/* Register */
+.register-popup,
+#registerDiv{
+    position: absolute;
+    width: 470px;
+    background-color: #fff;
+    top: -40px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.register-form .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+}
+.register-form form label{
+    margin-top: 10px;
+    color: grey;
+}
+.register-form form label span{
+    color: red;
+}
+.register-form form input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    color: grey;
+}
+.register-form form .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.register-form form .buttons a{
+    color: grey;
+}
+.register-form form .buttons > button{
+    background-color: #f89a35;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    padding: 10px;
+}
+/* Login */
+#loginDiv,
+.login-popup
+{
+    position: absolute;
+    width: 470px;
+    height: 414px;
+    background-color: #fff;
+    top: -41px;
+    right: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.login-form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.login-popup .logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+}
+.login-popup form label{
+    margin-top: 10px;
+    color: grey;
+}
+.login-popup form label span{
+    color: red;
+}
+.login-popup form input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    color: grey;
+}
+.login-popup form .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.login-popup form .buttons a{
+    color: grey;
+}
+.login-popup form .buttons > button{
+    background-color: #f89a35;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    width: 100px;
+    padding: 10px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+}
